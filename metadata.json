@@ -1,0 +1,6 @@
+{
+  "name": "FitMe 3D",
+  "description": "Personal 3D men's outfit colour-combination studio and compatibility tester.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

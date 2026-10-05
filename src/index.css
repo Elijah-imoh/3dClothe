@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color-scheme: light;
+    background-color: #fafafa;
+    color: #111111;
+  }
+
+  code, kbd, samp, pre, .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+
+  .font-serif-brand {
+    font-family: 'Playfair Display', Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+}
+
+@layer utilities {
+  .border-hairline {
+    border-color: #eaeaea;
+  }
+
+  .border-hairline-t {
+    border-top: 1px solid #eaeaea;
+  }
+
+  .border-hairline-b {
+    border-bottom: 1px solid #eaeaea;
+  }
+
+  .border-hairline-l {
+    border-left: 1px solid #eaeaea;
+  }
+
+  .border-hairline-r {
+    border-right: 1px solid #eaeaea;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
